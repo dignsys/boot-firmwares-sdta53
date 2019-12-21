@@ -1,10 +1,12 @@
 %define debug_package %{nil}
+%define buildarch aarch64
 Name:       sdta53-boot-firmware
-Summary:    Boot firmwares for Anchor5
+Summary:    Boot firmwares for SDTA53
 Version:    1.0.0
 Release:    0
 Group:      TO_BE/FILLED_IN
 License:    TO BE FILLED IN
+ExclusiveArch: aarch64
 Source0:    %{name}-%{version}.tar.gz
 
 %description
